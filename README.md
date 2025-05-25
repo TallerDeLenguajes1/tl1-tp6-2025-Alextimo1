@@ -1,1 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/24pP-Pw_)
+¿String es una tipo por valor o un tipo por referencia?
+En C#, string es un tipo por referencia porque internamente apunta a un objeto.
+Sin embargo, se comporta como si fuera inmutable: cuando lo modificás, en realidad estás creando un nuevo objeto.
+
+¿Qué secuencias de escape tiene el tipo string?
+\n → nueva línea
+
+\t → tabulación
+
+\\ → barra invertida
+
+\" → comillas dobles
+
+\' → comillas simples
+
+¿Qué sucede cuando utiliza el carácter @ y $ antes de una cadena de texto?
+@ permite cadenas multilínea y evita escapar caracteres
